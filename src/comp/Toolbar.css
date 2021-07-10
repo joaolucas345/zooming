@@ -1,0 +1,27 @@
+.toolbar-uncall{
+    height: 4vh;
+    display: flex;
+    align-items: center;
+}
+
+.toolbar-uncall *{
+    border: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.main-toolbar{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    color: white;
+}
+
+/* .audio{
+    /* background-color: #94264f; 
+} */
