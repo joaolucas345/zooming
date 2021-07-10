@@ -11,7 +11,7 @@ import Peer from 'simple-peer'
 
 let MyStreamSrc = {}
 let PartnerStreamSrc ={} 
-let URL = 'http://localhost:3001/'
+let URL = "YOUR_URL"
 let socket = new WebSocket('ws'+URL.substring(4))
 let MyOldStream = {}
 let changingScreenProcess = false
